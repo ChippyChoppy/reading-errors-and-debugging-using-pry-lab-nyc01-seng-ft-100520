@@ -1,10 +1,11 @@
 # don't forget to add: require 'pry'
 
 require 'pry'
+string = "surprise"
 
 def snake_it_up(string)
   if string[0] == "s"
-    do 10.times  "s" + string
+    p "ssssssssss#{string}"
   end 
   else
     string
@@ -12,4 +13,3 @@ def snake_it_up(string)
   end
 end
 
-snake_it_up("surprise!")
